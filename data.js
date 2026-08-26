@@ -14,7 +14,6 @@ const projects = [
       "Designed a SQLite schema for accounts, likes, interests, and interaction data so feeds persist across sessions.",
     ],
     links: [
-      { label: "GitHub", url: "#" },
     ],
   },
   {
@@ -27,7 +26,6 @@ const projects = [
       "Integrated the GitHub REST API to pull real profile data, giving users context on potential connections.",
     ],
     links: [
-      { label: "GitHub", url: "#" },
     ],
   },
   {
@@ -39,7 +37,6 @@ const projects = [
       "Structured AI responses as JSON to make parsing reliable rather than best-effort.",
     ],
     links: [
-      { label: "GitHub", url: "#" },
     ],
   },
   {
@@ -52,7 +49,6 @@ const projects = [
       "Wrote algorithms to procedurally generate enemy bases, widening gameplay variety.",
     ],
     links: [
-      { label: "GitHub", url: "#" },
     ],
   },
   {
@@ -65,7 +61,6 @@ const projects = [
       "Added Google AdMob interstitial ads to support monetization.",
     ],
     links: [
-      { label: "GitHub", url: "#" },
     ],
   },
 ];
