@@ -1,5 +1,4 @@
-/* Renders everything in data.js into the page.
-   You shouldn't need to edit this file to add content. */
+/* Renders everything in data.js into the page. */
 
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) =>
