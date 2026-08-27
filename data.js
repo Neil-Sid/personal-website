@@ -83,9 +83,9 @@ const profile = {
    ABOUT — set to "" to hide the section entirely
    ------------------------------------------------------------ */
 const about =
-  "I'm a recent Computer Science graduate at the University of Maryland with a minor in Business, " +
+  "I recently graduated with a Computer Science degree and a minor in Business from  the University of Maryland, " +
   "Most of what I build is full-stack web work React and TypeScript " +
-  "front ends over Node and Django APIs with some Unity and Android game development on the side.";
+  "front ends over Node and Django APIs with some Unity and Mobile App development.";
 
 
 /* ------------------------------------------------------------
