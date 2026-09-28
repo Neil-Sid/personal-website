@@ -1,11 +1,5 @@
 /* Renders everything in data.js into the page. */
 
-import { inject } from '@vercel/analytics';
-import { profile, about, experience, projects, skills, education } from './data.js';
-
-// Initialize Vercel Analytics
-inject();
-
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])
