@@ -2,7 +2,7 @@
    ALL SITE CONTENT LIVES HERE.
    ============================================================ */
 
-const projects = [
+export const projects = [
   {
     name:  "Scrollopedia",
     blurb: "An infinite-scrolling Wikipedia feed that learns what you like and keeps serving up articles worth reading.",
@@ -69,7 +69,7 @@ const projects = [
 /* ------------------------------------------------------------
    HEADER
    ------------------------------------------------------------ */
-const profile = {
+export const profile = {
   name:    "Neil Sidhu",
   tagline: "Recent  Computer Science Gradaute from the University of Maryland.",
   links: [
@@ -82,7 +82,7 @@ const profile = {
 /* ------------------------------------------------------------
    ABOUT — set to "" to hide the section entirely
    ------------------------------------------------------------ */
-const about =
+export const about =
   "I recently graduated with a Computer Science degree and a minor in Business from  the University of Maryland, " +
   "Most of what I build is full-stack web work React and TypeScript " +
   "front ends over Node and Django APIs with some Unity and Mobile App development.";
@@ -92,13 +92,13 @@ const about =
    EXPERIENCE — empty, so the section hides itself.
    Add a { title, org, date, points } block when you have one.
    ------------------------------------------------------------ */
-const experience = [];
+export const experience = [];
 
 
 /* ------------------------------------------------------------
    SKILLS — one row per category
    ------------------------------------------------------------ */
-const skills = [
+export const skills = [
   {
     label: "Languages",
     items: ["Java", "Python", "JavaScript", "TypeScript", "C", "C#", "Kotlin", "Rust", "OCaml", "HTML", "CSS"],
@@ -121,7 +121,7 @@ const skills = [
 /* ------------------------------------------------------------
    EDUCATION
    ------------------------------------------------------------ */
-const education = [
+export const education = [
   {
     title:  "B.S. Computer Science, Minor in Business",
     org:    "University of Maryland, College Park",
